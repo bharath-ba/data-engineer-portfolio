@@ -43,14 +43,14 @@ Initially inclined toward software development and web technologies, I discovere
 ## Portfolio Projects (3 Selected)
 
 ### 1. [Netflix Data Engineering Project](https://github.com/bharath-ba/netflix-data-engineering-project)  
-**Tech Stack:** Apache Spark, AWS S3, Python, PySpark, SQL  
+**Tech Stack:** Azure Data Factory, Azure Databricks, Delta Lake, PySpark
 
 Developed a data pipeline for processing Netflix show data. Included ingestion, transformation, and cleaning of datasets. Utilized PySpark for processing and structured the pipeline with modular, scalable components.
 
 ---
 
 ### 2. [Azure Databricks End-to-End Pipeline](https://github.com/bharath-ba/Azure-Databricks-ETE)  
-**Tech Stack:** Azure Data Factory, Azure Databricks, Delta Lake, Azure Storage  
+**Tech Stack:** Azure Data Factory, Azure Databricks, Delta Lake, DeltaLiveTables, Azure Storage  
 
 Built an end-to-end data engineering solution using Azure's services to perform ingestion, processing, and visualization. The pipeline features integration with Azure Data Lake and employs Delta format for efficiency.
 
@@ -58,7 +58,7 @@ Built an end-to-end data engineering solution using Azure's services to perform 
 
 ### 3. [VideoTape Short Film Festival](https://github.com/bharath-ba/Videotape)  
 **Live Site:** [videotapeshortfilmfestival.in](https://videotapeshortfilmfestival.in)  
-**Tech Stack:** Frontend (HTML/CSS/JS), Backend (Node.js or Python-based), Deployment (Netlify/Vercel/Azure)  
+**Tech Stack:** Frontend (HTML/CSS/JS), Backend (Node.js)
 
 Developed and deployed the official website for a short film festival. Included features like film submission, event schedule, jury display, and a CMS-backed announcements section. Designed for responsiveness and performance across devices.
 
