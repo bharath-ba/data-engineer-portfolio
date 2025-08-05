@@ -40,55 +40,27 @@ Initially inclined toward software development and web technologies, I discovere
 
 ---
 
-## Portfolio Projects (7 Selected)
+## Portfolio Projects (3 Selected)
 
-### 1. **Retail Data Lakehouse Pipeline**  
-**Tech Stack:** Azure ADF, Databricks, PySpark, Delta Lake, Synapse  
-**Code:** [GitHub Repo](https://github.com/bharath-ba/Retail_Data_Lakehouse)  
+### 1. [Netflix Data Engineering Project](https://github.com/bharath-ba/netflix-data-engineering-project)  
+**Tech Stack:** Apache Spark, AWS S3, Python, PySpark, SQL  
 
-Built an end-to-end pipeline using a Medallion (Bronze-Silver-Gold) architecture. Implemented batch ingestion with ADF, transformations using PySpark, and dimensional modeling with SCD Type 2 logic. Output data was made analytics-ready via Synapse and connected to Power BI.
-
----
-
-### 2. **Streaming Clickstream Analytics** *(Ongoing)*  
-**Tech Stack:** Kafka, Spark Streaming, PostgreSQL, Azure  
-
-Simulates real-time clickstream events and processes them using Spark Structured Streaming. Aggregated results are stored in PostgreSQL and visualized through dashboards. Focus on low-latency ingestion, checkpointing, and streaming window functions.
+Developed a data pipeline for processing Netflix show data. Included ingestion, transformation, and cleaning of datasets. Utilized PySpark for processing and structured the pipeline with modular, scalable components.
 
 ---
 
-### 3. **Automated Data Reporting Workflow**  
-**Tech Stack:** Python, Azure Functions, ADF  
+### 2. [Azure Databricks End-to-End Pipeline](https://github.com/bharath-ba/Azure-Databricks-ETE)  
+**Tech Stack:** Azure Data Factory, Azure Databricks, Delta Lake, Azure Storage  
 
-Developed a fully automated reporting tool to extract, clean, and email daily reports to business stakeholders. Reduced manual effort by 28% using Python-based scheduling and Azure automation.
-
----
-
-### 4. **Power Grid Data Pipeline (IEEE-118 Simulation)**  
-**Tech Stack:** PySpark, Pandapower, Delta Lake, Azure Data Lake  
-
-Ingested NREL IEEE-118 case data and simulated hourly power flows. Stored results using Delta format for auditability. Deployed in ADF and visualized performance metrics (e.g., bus load, outages).
+Built an end-to-end data engineering solution using Azure's services to perform ingestion, processing, and visualization. The pipeline features integration with Azure Data Lake and employs Delta format for efficiency.
 
 ---
 
-### 5. **Data Lineage Tracker for ADF Pipelines**  
-**Tech Stack:** Azure Data Factory, Python, Databricks  
+### 3. [VideoTape Short Film Festival](https://github.com/bharath-ba/Videotape)  
+**Live Site:** [videotapeshortfilmfestival.in](https://videotapeshortfilmfestival.in)  
+**Tech Stack:** Frontend (HTML/CSS/JS), Backend (Node.js or Python-based), Deployment (Netlify/Vercel/Azure)  
 
-Designed a metadata capture layer that logs pipeline execution context (source, transformations, target, status) to a lineage DB. Useful for audits and debugging failed runs.
-
----
-
-### 6. **GitHub Issue Tracker Analytics**  
-**Tech Stack:** GitHub API, Python, Pandas, Power BI  
-
-Extracted and analyzed GitHub issue/PR activity from a target repo to understand contributor patterns and issue resolutions. Processed data using Python and built dashboards in Power BI.
-
----
-
-### 7. **Data Quality Validator Framework**  
-**Tech Stack:** PySpark, Great Expectations, ADF  
-
-Integrated Great Expectations into PySpark pipelines for automated validation. Built tests for null checks, uniqueness, data type compliance, and threshold ranges. Failures are logged and alerted via email/Teams.
+Developed and deployed the official website for a short film festival. Included features like film submission, event schedule, jury display, and a CMS-backed announcements section. Designed for responsiveness and performance across devices.
 
 ---
 
